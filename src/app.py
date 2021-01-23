@@ -4,7 +4,7 @@
 from tempfile import gettempdir
 from flask import Flask, render_template, request, make_response, send_file
 from flask_cors import CORS
-from wsgidav.fs_dav_provider import FilesystemProvider
+from url_auth_fs_dav_provider import FilesystemProvider
 from wsgidav.wsgidav_app import WsgiDAVApp
 from werkzeug.middleware.dispatcher import DispatcherMiddleware
 import logging

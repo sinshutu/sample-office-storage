@@ -9,9 +9,12 @@
   <body>
     <div>
       host: {{ host }}
+      sessionID: asdfasdf
     </div>
     <div>
-      <a href="ms-word:ofe|u|https://{{ host }}/storage/sample.docx">編集</a>
+      <a href="ms-word:ofe|u|https://{{ host }}/storage/asdfasdf/sample.docx">編集(正しいsessionid)</a>
+      <br>
+      <a href="ms-word:ofe|u|https://{{ host }}/storage/hogehoge/sample.docx">編集(誤ったsessionid)</a>
     </div>
 
     <div>
